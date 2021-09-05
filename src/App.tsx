@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import api from "./api/index";
+import { useDispatch } from "react-redux";
+import { loadLaunches } from "./redux/modules/launches";
+
 function App() {
-  api.launches.getLaunches("2021-08-31T20:43:53Z", "2021-11-11T20:43:53Z");
+  const dispatch = useDispatch()
+
+  useEffect(()=>{
+    dispatch(loadLaunches("2021-09-5T20:43:53Z", "2021-12-4T20:43:53Z", 0))
+  },[])
 
   return (
     <div className="App">

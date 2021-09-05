@@ -25,9 +25,8 @@ const request = async (options :  Record<string, string>) => {
         response.config.url
       );
     }
-    return {
-      data: response.data
-    };
+    return response.data
+
   };
 
   const onError = (error: AxiosError) => {

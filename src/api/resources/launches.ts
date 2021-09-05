@@ -52,7 +52,7 @@ export const getLaunches = async (
 ) => {
   try {
     const results = await request({
-      url: `/launch/?window_start__gt=${startDate}&window_end__lte=${endDate}&limit=100${
+      url: `/launch/?window_start__gte=${startDate}&window_end__lte=${endDate}&limit=100${
         offset ? `&offset=${offset}` : ""
         }`,
     });
