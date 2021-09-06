@@ -22,7 +22,6 @@ const Map = ({ filters }: { filters: Filters }): JSX.Element => {
       bootstrapURLKeys={{
         key: "AIzaSyCZbhsPH2uJr2sRbwlJSKSE-bW5kUrvnMM",
       }}
-      // bootstrapURLKeys={{ key: "" }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
       style={{ width: "100%", height: "500px" }}
