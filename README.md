@@ -26,3 +26,5 @@ Things that I would improve if I had more time:
 - **Performance**: I will try to add cluster for markers on the map to enhance performance and figure out away to lazy load launches results on the map since I only load the first 100 results at the moment.
 
 - **UI / UX**: I tried to make the layout responsive and improve the overall user experince on different screen sizes but there is still plenty of things that can be done to make it even better.
+
+- **Stories**: I would tackle the rest of the stories in the task that I was not able to finish due to lack of time.
