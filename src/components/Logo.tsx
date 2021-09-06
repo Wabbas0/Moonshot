@@ -1,7 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
 import { Typography, Row, Col } from "antd";
-import flyingRocket from "../statics/68803-rocket-lottie-animation.json";
 import rocketQualibrate from "../statics/18889-rocket-qualibrate.json"
 const { Title } = Typography;
 
