@@ -17,14 +17,3 @@ yarn start
 - **/config** Here is where we add configuration for testing libraies and others.
 
 
-### Improvements
-
-Things that I would improve if I had more time:
-
-- **Testing**: due to lack of time I was not able to test everything thoroughly and I was only able to test some components and actions Using Jest & Enzyme.
-
-- **Performance**: I will try to add cluster for markers on the map to enhance performance and figure out away to lazy load launches results on the map since I only load the first 100 results at the moment.
-
-- **UI / UX**: I tried to make the layout responsive and improve the overall user experince on different screen sizes but there is still plenty of things that can be done to make it even better.
-
-- **Stories**: I would tackle the rest of the stories in the task that I was not able to finish due to lack of time.
